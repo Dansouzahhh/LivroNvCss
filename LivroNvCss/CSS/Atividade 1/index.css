@@ -1,27 +1,43 @@
 * {
     font-family: sans-serif;
+    /* Fonte de texto  Geral */
 }
-h3{
+
+h3 {
     color: #1a6868;
+    /* De cor para o h3 = ingredientes */
 }
-li::marker{
+
+li::marker {
     color: #1a6868;
+    /* Dar cor e Deixa italico a Lista */
     font-weight: bold;
     font-style: italic;
 }
-li{
+
+li {
     line-height: 30px;
+    /* Da espaçamento da linha na lista de 30px */
 }
-input[type="checkbox"]:checked + p{
+
+/* Faz um traço no CheckBox */
+input[type="checkbox"]:checked+p {
     text-decoration: line-through;
+
 }
-li > input[type="checkbox"], li > p{
+
+li>input[type="checkbox"],
+li>p {
     display: inline;
+    /* Manter o texto a frente do check box = Inline */
 }
-li > p{
+
+li>p {
     color: black !important;
+    /* Da prioridade para a li para ficar Preta na Ul */
 }
 
 h1 {
     color: #12787c;
+    /* Da cor para o H1 = Titulo   */
 }
