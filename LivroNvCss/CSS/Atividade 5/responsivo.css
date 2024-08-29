@@ -70,7 +70,11 @@
     width: 70%;
 }
 
-#lista > ol > li .clip > img {
+#lista > ol > li .clip > img { 
+    
+    /* A propriedade permite especificar um retângulo para recortar um elemento posicionado de forma absoluta. 
+    O retângulo é especificado como quatro coordenadas, todas a partir do canto superior esquerdo do elemento a ser recortado */
+
     width: 30%;
     margin-right: 10px;
 }
@@ -79,7 +83,7 @@
     width: 100%;
     height: 100%;
     position: fixed;
-    background-color: #333333;
+    background-color: #b905b0;
     top: 0;
     left: 0;
     opacity: .6;
@@ -102,6 +106,10 @@
 }
 
 @media (max-width: 575.98px) { 
+    
+    /* As media queries são uma técnica que permite aplicar estilos diferentes a uma página web com base em certas condições, 
+    como a largura da tela do dispositivo. 
+    Elas são usadas para criar designs responsivos, que se adaptam a diferentes tamanhos de tela e dispositivos. */
 
     #topo .capa{
         width: 80%;
